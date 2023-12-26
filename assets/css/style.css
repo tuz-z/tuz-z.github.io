@@ -1,37 +1,51 @@
 body {
+    display: flex;
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
+    min-height: 100vh;
     background-color: #1a1a1a;
     color: #fff;
 }
 
-header {
+nav {
     background: #333;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
+    width: 200px;
+    height: 100vh;
+    box-sizing: border-box;
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
-    text-align: center;
+    margin: 0;
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 10px;
+    margin: 0;
 }
 
 nav ul li a {
-    color: #4a86e8;
+    color: #fff;
     text-decoration: none;
+    display: block;
+    padding: 10px 0;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+header {
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
 }
 
 main {
-    margin: 20px;
+    margin: 0;
 }
 
 footer {
@@ -49,23 +63,4 @@ footer {
 
 .blog-posts h3 a {
     color: #4a86e8;
-}
-
-form input[type="text"], form input[type="email"], form textarea {
-    width: 100%;
-    margin-bottom: 10px;
-    padding: 5px;
-}
-
-form input[type="submit"] {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-form input[type="submit"]:hover {
-    background-color: #444;
 }
