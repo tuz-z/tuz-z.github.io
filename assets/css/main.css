@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #f0f4f4;
+		background: #97ebeb;
 		color: #5b5b5b;
 		font-size: 15pt;
 		line-height: 1.85em;
@@ -158,7 +158,7 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: #ef8376;
+			color: #843c34;
 			border-bottom-color: transparent;
 		}
 
@@ -175,7 +175,7 @@ input, select, textarea {
 	}
 
 	blockquote {
-		border-left: solid 0.5em #ddd;
+		border-left: solid 0.5em #e0a7a7;
 		padding: 1em 0 1em 2em;
 		font-style: italic;
 	}
